@@ -12,11 +12,17 @@ func InitRouter(group *gin.RouterGroup, fns ...MetricsOptionHandler) error {
 		fn(&metricOptions)
 	}
 
-	// 注册路由
+	// 注册路由-按照配置的解决方案名称获取所有序列名称
 	group.POST("/seriesname", func(c *gin.Context) {
 
 		c.JSON(200, gin.H{})
 	})
+
+	// 缓存命中率 指定series, job , adaptor
+
+	// 热key排行榜
+
+	// 指定key查询次数
 
 	return nil
 }

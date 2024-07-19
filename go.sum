@@ -63,6 +63,8 @@ github.com/prometheus/common v0.54.0/go.mod h1:/TQgMJP5CuVYveyT7n/0Ix8yLNNXy9yRS
 github.com/prometheus/procfs v0.12.0 h1:jluTpSng7V9hY0O2R9DzzJHYb2xULk9VTR1V1R/k6Bo=
 github.com/prometheus/procfs v0.12.0/go.mod h1:pcuDEFsWDnvcgNzo4EEweacyhjeA9Zk3cnaOZAZEfOo=
 github.com/rogpeppe/go-internal v1.10.0 h1:TMyTOH3F/DB16zRVcYyreMH6GnZZrwQVAoYjRBZyWFQ=
+github.com/rumis/liutils v1.0.1 h1:u4F9KDDcoW+f1RYEE1LL7Vh0E3M2CiBecSAey+897TI=
+github.com/rumis/liutils v1.0.1/go.mod h1:4NLJABY6Lz4471OymKVZK6PAbhzPLZwEq3gEg1OW0k4=
 github.com/rumis/multicache v1.1.0 h1:vnJshbDqGkPZ0/WQQffjXtbqIoKN47rlDX0gwal+9GY=
 github.com/rumis/multicache v1.1.0/go.mod h1:tSux1z1EDdNHrifea87FG7Pd03SjFRmqPM90WT0YPck=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=

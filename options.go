@@ -1,5 +1,7 @@
 package multicache_gin
 
+import "os"
+
 type MetricsOptionHandler func(opt *MetricsOption)
 
 // MetricsOption 用于配置Metrics
@@ -12,7 +14,7 @@ type MetricsOption struct {
 func DefaultMetricsOption() MetricsOption {
 	return MetricsOption{
 		SolutionName: "default",
-		QueryHost:    "http://localhost:8086",
+		QueryHost:    os.Getenv("PROM_QUERY_HOST"),
 	}
 }
 
